@@ -39,4 +39,27 @@ button {
   border: 3px solid black;
   height: 500px;
 }
-#mapid { height: 100%; }
+.result {
+  width: 26vh;
+  height: 20vh;  
+  margin-left: auto;
+  margin-right: auto;
+
+}
+li {
+  list-style: none;
+  font-size: 13px;
+
+}
+ul {
+
+}
+.cointeinerPorDIv{
+  height: 90px;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+#mapid { height: 100%;
+width: 100%; }
