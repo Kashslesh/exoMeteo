@@ -34,6 +34,7 @@ button {
   height: 20vh;
   border: 3px solid black;
   margin-bottom: 10%;
+  display: flex;
 }
 .infoMeteo {
   border: 3px solid black;
@@ -41,25 +42,52 @@ button {
 }
 .result {
   width: 26vh;
-  height: 20vh;  
+  height: 20vh;
   margin-left: auto;
   margin-right: auto;
-
 }
 li {
   list-style: none;
   font-size: 13px;
-
 }
 ul {
-
 }
-.cointeinerPorDIv{
+.cointeinerPorDIv {
   height: 90px;
   width: 20vw;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
 }
-#mapid { height: 100%;
-width: 100%; }
+.borderBottom {
+  border-radius: 10px 10px 0 0;
+  border-bottom: 3px solid rgb(241, 218, 218);
+  background: white;
+}
+button {
+  display: block;
+  border: none;
+  width: 20vw;
+  background-color: white;
+  /* border-radius:10px; */
+  font-size: 16px;
+  padding: 5px 10px;
+  text-align: left;
+}
+.divMeteo {
+  border: 3px solid black;
+  width: 50%;
+  height: 100%;
+}
+.divChar {
+  border: 3px solid black;
+  width: 50%;
+  height: 100%;
+}
+.divMeteo {
+  text-align: center;
+}
+#mapid {
+  height: 100%;
+  width: 100%;
+}
